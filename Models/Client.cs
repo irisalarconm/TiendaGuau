@@ -15,11 +15,11 @@ namespace TiendaGuau.Models
         public string NameClient { get; set; }
         public string LastnameClient { get; set; }
 
-        public int DNIClient { get; set; }
+        public long DNIClient { get; set; }
         public string AdressClient { get; set; }
 
         //[Phone]
-        public int Phone { get; set; }
+        public long Phone { get; set; }
         public Status status { get; set; }
 
         //*public virtual Product Product { get; set; }
